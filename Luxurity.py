@@ -310,7 +310,7 @@ if active_prompt:
 
                     # Updated to gemini-2.5-flash for the latest API version
                     response = client.models.generate_content_stream(
-                        model="gemini-2.5-flash",
+                        model="gemini-3.8-flash",
                         contents=contents,
                         config=types.GenerateContentConfig(
                             system_instruction=combined_instruction,
